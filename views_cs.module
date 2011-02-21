@@ -1,0 +1,16 @@
+<?php
+
+define('VIEWS_CS_PATH', drupal_get_path('module', 'views_cs'));
+
+/*************************************************************
+				MODULE HOOKS
+*************************************************************/
+
+/*
+ * Implementation of hook_views_api();
+ */
+function views_cs_views_api() {
+	return array(
+		'api' => 2,
+	);
+}
